@@ -151,14 +151,7 @@ column-gap: 1vw;
 @media (max-width: 600px) {
 
    
-   h1.blogPosts {
-   
 
-       margin-top: -18vh;
-   
-    
-      
-     }
    
    
  .allBlogPosts {
@@ -170,6 +163,16 @@ column-gap: 1vw;
   margin-top: -160px;
 
  }
+      h1.blogPosts {
+   
+
+       margin-top: -18vh;
+   
+    
+      
+     }
+   
+   
  .indexH1 {
   margin-top: -24vh;
 }
