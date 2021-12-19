@@ -159,8 +159,8 @@ button.showMore:hover {
 background-color: #1d2671;
      
     border-radius: 5%;
-    box-shadow: none;
-    
+  box-shadow: 10px 9px 6px 10px #5163c7,
+      
 }
 
      h1.blogPosts {
