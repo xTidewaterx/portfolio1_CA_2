@@ -100,7 +100,7 @@ column-gap: 1vw;
    
    margin: 0 auto;
  
-    margin-top: -210px;
+    margin-top: -110px;
 
     
 
@@ -116,7 +116,7 @@ column-gap: 1vw;
 
 .indexH1 {
 
-  margin-top: -100px;
+  margin-top: -30px;
 }
 
 
@@ -156,11 +156,11 @@ column-gap: 1vw;
   column-count: 2;
   column-gap: 16vw;
   margin: 0 auto;
-  margin-top: -400px;
+  margin-top: -130px;
 
  }
  .indexH1 {
-  margin-top: -28vh;
+  margin-top: -18vh;
 }
 
 button#showMore.showMore {display: none;}
