@@ -155,6 +155,7 @@
 
 button.showMore:hover {
         color: red;
+    background-color: red;
 }
 
      h1.blogPosts {
