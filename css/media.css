@@ -156,11 +156,11 @@ column-gap: 1vw;
   column-count: 2;
   column-gap: 16vw;
   margin: 0 auto;
-  margin-top: -150px;
+  margin-top: -160px;
 
  }
  .indexH1 {
-  margin-top: -18vh;
+  margin-top: -36vh;
 }
 
 button#showMore.showMore {display: none;}
