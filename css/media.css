@@ -162,6 +162,11 @@ column-gap: 1vw;
  .indexH1 {
   margin-top: -24vh;
 }
+   
+   #indexH1 {
+   
+   margin-top: -18vh;
+   }
 
 button#showMore.showMore {display: none;}
 
