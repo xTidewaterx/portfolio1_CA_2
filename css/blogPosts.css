@@ -159,7 +159,7 @@ button.showMore:hover {
 background-color: #1d2671;
      
     border-radius: 5%;
-  box-shadow: 10px 9px 6px 10px #5163c7,
+  box-shadow: 10px 9px 6px 10px #5163c7,  5px 8px 6px 0 #333333;
       
 }
 
