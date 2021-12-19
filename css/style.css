@@ -1,0 +1,213 @@
+body {
+    font-family: var(--text-paragraph), Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 100%;
+    margin: 0px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  
+      font-family: var(--text-paragraph), Verdana, Geneva, Tahoma, sans-serif;
+  
+    
+}
+
+
+/*I am now reconstructing the nav, for the mobile version, I will add the pc version into media.css*/
+
+
+/*header*/
+
+
+header {
+    display: absolute;
+    background-image: url("../Images/cryptoBackground_refined.jpg") ;
+  background-size:fill;  /*important so it covers the header*/
+  
+  
+  height: 40vh;
+  
+  background-repeat: no-repeat;
+  
+  
+  background-size: 150%;
+  background-color: rgb(31, 104, 238);
+  
+  
+  }
+
+
+  header, footer {
+    background-color: #0072f4;
+    display: flex;
+   
+    justify-content: space-evenly;
+    padding: 1.5vh;
+    color: white;
+}
+
+  a.logo {
+    width: auto;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding-right: 10px;
+ 
+    
+    position: absolute;
+    top: 0;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+  
+    color: white;
+}
+
+ 
+
+  
+
+
+
+  .fas {
+    margin: 10px;
+  }
+
+
+
+
+
+  
+  .topNav {
+
+ 
+      position: absolute;
+      top: 0;
+      margin-top:10px;
+      margin-left: 77vw;
+
+
+  }
+
+  header, footer {
+      color: white;
+  }
+
+
+  input#hamburger-menu {
+    display: none;
+}
+
+fa-bars::before {
+  content: "\f0c9";
+}
+
+.fa, .fas {
+  font-weight: 900;
+}
+.fa, .far, .fas {
+  font-family: "Font Awesome 5 Free";
+}
+
+
+nav {
+  background-color: cornflowerblue;
+  position: absolute;
+  text-align: right;
+  margin-left: 25px;
+  display: none;
+  top: 45px;
+ 
+  z-index: 1000;
+  right: 0px;
+margin-top: -12px; }
+
+
+  /*this is the checkbox that when checked (clicked) shows the menu*/
+  #hamburger-menu:checked ~ nav {
+    display: block;
+    border-radius: 5%;
+}
+
+nav ul {
+  padding: 0px;
+  word-spacing: 4vw;
+  text-align: right;
+  margin-right: 2rem;
+  list-style: none;
+  border-radius: 5%;
+}
+
+
+nav li {
+  padding: 30px 30px 30px 30px;
+  text-align: right;
+
+  text-align: left;
+  margin-left: 20px;
+}
+
+    /*header STOP*/
+
+html{ font-family: var(--text-paragraph), Verdana, Geneva, Tahoma, sans-serif;}
+
+.active {
+  text-decoration: underline;
+}
+
+    /*our hamburger-menu only functions as a checkbox, it is a unified symbol used in CSS that has an invisible checkbox all over it, thus there is no JavaScript,
+    Just HTML and CSS, the checkbox in question*/
+
+
+
+    /*for loading, use the display none in correlation with the function of the  javascript, so that when it goes through so does the csss display none */
+
+    /*for the loading stuff shpwing up on the middle of the screen, just use a "loading" div which has no display in the javascript function as well a huge maegin underneath so the footer stays below*/
+
+    /*begin with the media.css, make the navigation compact, just copy paste the nav from the fully elapsed page
+     If an intercontinental ballistic missile (ICBM) were fired at a US target, roughly 25 minutes would elapse between detection and impact. — Tim Lister, CNN, 5 Nov. 2021 */  
+     
+     h1.uniqueH1 {
+
+   
+        text-align: center;
+    
+     }
+
+
+     .loading {
+
+      text-align: center;
+      font-size: large;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
+   
+     }
+
+     p{
+    
+       height: auto;
+       text-align: left;
+       max-width: 400px;
+       margin: 0 auto;
+     }
+
+    
+     .carouselContainer {
+
+      margin-top:-30vw;
+     }
+
+     h1 {
+
+     
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: rgb(0, 81, 255);
+    font-size:6vw;
+     }
+
+   

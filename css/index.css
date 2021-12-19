@@ -1,0 +1,197 @@
+
+
+.carouselContainer {
+
+padding: 1vw;
+column-count: 2;
+column-gap: 10vw;
+margin-top: 30px;
+
+margin: 0 auto;
+
+right: 0;
+left: 0;
+
+margin-top: -180px;
+
+background:  rgba(252, 226, 226, 0.384);
+border-radius: 3%;
+margin-bottom: 200px;
+min-height: 130vw;
+
+
+}
+
+
+    button.button2 { 
+       
+        max-width: 40px;
+        width: 100%;
+        text-align: center;
+   
+
+     line-height: 20;
+  
+
+     
+        font-size: 4vw;
+  
+  
+        color: rgb(255, 255, 255);
+        background-color: rgb(58, 143, 255);
+      
+     
+        border-radius: 4%;
+
+       box-shadow: 1px 1px rgb(232, 55, 248);
+        
+        
+        }
+        
+
+
+button.button1 {
+    text-align: center;
+    width: 100%;
+    font-size: 1vh;
+    color: rgb(255, 255, 255);
+    background-color: rgb(58, 143, 255);
+    line-height: 20;
+  
+    border-radius: 4%;
+   box-shadow: 0px 0px 1px 1px rgb(232, 55, 248);
+   max-width: 40px;
+}
+
+
+
+.blogPosts1 {
+
+    
+    float:inline-start;
+   margin-left: 0 auto;
+   margin-right: 0 auto;
+   width:  20vw;
+
+
+
+
+    
+}
+
+.blogPosts3 {
+
+    float: inline-start;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    width:  20vw;
+}
+
+.blogPosts4 {
+
+    float: inline-start;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    width:  20vw;
+}
+
+
+
+
+
+
+h2.blogPosts5 {
+
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.buttonRight {
+
+    width: 100%;
+    display: inline-block;
+  
+}
+
+button.button2 {
+    text-align: center;
+    width: 100%;
+    font-size: 1vh;
+    color: rgb(255, 255, 255);
+    background-color: rgb(58, 143, 255);
+    line-height: 20;
+
+    border-radius: 4%;
+   box-shadow: 0px 0px 1px 1px rgb(232, 55, 248);
+   max-width: 40px;
+}
+
+
+button.button1 {
+    text-align: center;
+    width: 20%;
+  
+    color: white;
+    background-color: #3a8fff;
+    height: 100vw;
+    display: flex;
+    margin-top: -140vw;
+   float: inline-end;
+    position: absolute;
+    margin-top: 300px;
+}
+
+h1 {
+
+    color:white;
+}
+
+button.button2 {
+    text-align: center;
+    width: 20%;
+   
+    color: white;
+    background-color: #3a8fff;
+    height: 100vw;
+    display: flex;
+    margin-top: -140vw;
+    float: inline-end;
+    position: absolute;
+    margin-top: 300px;
+}
+button.button2 {
+  
+    width: 100%;
+  
+    color: white;
+    background-color: #3a8fff;
+    line-height: 20;
+  
+    border-radius: 4%;
+    box-shadow: 0px 0px 1px 1px #e837f8;
+    max-width: 40px;
+    float: inline-end;
+    right: 2;
+    overflow: hidden;
+}
+
+.cardColour {
+
+    max-width: 20vw;
+
+ 
+}
+h1 {
+    color: rgb(255, 255, 255);
+
+    display: flexbox;
+    margin: 0 auto;
+    margin-top: -300px;
+   background-color: #959dac69;
+    
+    border-radius: 5%;
+    
+}
+
+h2 {
+    padding: 1vw;
+}

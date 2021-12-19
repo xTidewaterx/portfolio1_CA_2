@@ -1,0 +1,31 @@
+
+body {
+    grid-template-columns: 1fr;
+}
+
+
+div.breadcrumb-nav {
+
+    position: absolute;
+    display: inline;
+    font-size: 10px, 3vw;
+  
+    margin-top: 80px;
+    padding: 15px;
+  
+}
+
+.game-details {
+    min-height: 100vw;
+    max-height: 540vw;
+
+background:  rgba(255, 255, 255, 0.384);
+padding: 10%;
+border-radius: 3%;
+padding-bottom: 40vw;
+
+}
+
+/*here make the relationship blossom*/
+
+/*doen it all, the blogPostSpecific-page is now here,  added media for the verticality landscape nad got it a rounded background emulator*/

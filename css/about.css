@@ -1,0 +1,30 @@
+
+
+h1 { 
+    position: static;
+margin: 0 auto;
+
+margin-top: 20px;
+margin-bottom: 20px;
+font-size: 5vh;
+max-block-size: 100px;
+
+text-align: center;
+
+
+}
+
+.about {
+    
+    display: flexbox;
+
+
+    background:  rgba(252, 226, 226, 0.384);
+padding: 10%;
+border-radius: 3%;
+margin: 0 auto;
+margin-top: -300px;
+margin-bottom: 200px;
+
+    
+}

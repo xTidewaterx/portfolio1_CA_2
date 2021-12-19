@@ -1,0 +1,173 @@
+@media (min-width: 600px) {
+   
+    header label {
+        display: none;
+      }
+
+  
+      header { justify-content: start;
+  }
+
+
+
+
+  .topNav{
+ 
+    margin-left: auto;
+    right: 0;
+
+ }
+
+
+ nav {
+
+    margin-top: 2px;
+    display: block;
+    top:0;
+    position: static;
+
+
+  
+    background-color: transparent;
+
+    display: block;
+    position: static;
+  
+    
+  }
+
+  nav li {
+    display: inline-block;
+    padding: 0px;
+  }
+
+  header label {
+    display: none;
+  }
+
+a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p.aboutColumns {
+
+column-count: 3;
+min-width: 60vw;
+
+/*we made it, this let's the flow open*/
+
+}
+
+div.carouselContainer {
+
+  column-count: 4;
+
+margin-top:2vw;
+width: 90vw;
+padding: none;
+column-gap: 1vw;
+   margin-left: 4vw;
+ 
+
+
+}
+.button1 {
+  display: flex;
+  width: 10vw;
+ 
+}
+
+.cardColour {
+
+
+
+  margin: 0 auto;
+
+
+
+  
+}
+  img {
+
+    width:21vw;
+  }
+
+ 
+
+  .allBlogPostsContainer {
+
+    column-count: 3;
+   
+   margin: 0 auto;
+ 
+    margin-top: -210px;
+
+    
+
+      height: 130vw;
+      overflow: hidden;
+      margin-bottom: 300px;
+    
+
+
+ /*click vieww more, max height is suddenly tranformative, now it is unlimited*/
+ /*height quality needs to belong to another container*/
+  }
+
+.indexH1 {
+
+  margin-top: -100px;
+}
+
+
+}
+
+
+
+@media (max-height:550px) {
+
+    .blogPosts {
+      margin-top: 16vw;
+    }
+
+    .game-details {
+      margin-top: 200px;
+     
+   
+  }
+
+  
+
+  .allBlogPostsContainer {
+   margin-top: -100px; }
+
+
+
+}
+
+
+
+
+@media (max-width: 600px) {
+
+ .allBlogPosts {
+   min-height: 200vw;
+ display: flexbox;
+  column-count: 2;
+  column-gap: 16vw;
+  margin: 0 auto;
+  margin-top: -400px;
+
+ }
+ .indexH1 {
+  margin-top: -28vh;
+}
+
+button#showMore.showMore {display: none;}
+
+.allBlogPostsContainer {
+
+  margin-top: 60px;
+}
+
+}
