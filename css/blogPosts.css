@@ -153,6 +153,10 @@
       
      }
 
+button.showMore:hover {
+        color: red;
+}
+
      h1.blogPosts {
    
     display: inline;
