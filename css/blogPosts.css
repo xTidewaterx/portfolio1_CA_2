@@ -154,8 +154,8 @@
      }
 
 button.showMore:hover {
-        color: red;
-    background-color: red;
+      color: #e6dada;
+background-color: #1d2671;
 }
 
      h1.blogPosts {
